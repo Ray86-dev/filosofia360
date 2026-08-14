@@ -1,0 +1,28 @@
+# dependencias
+/node_modules
+
+# build de Next
+/.next
+/out
+
+# base de datos local (se regenera con el seed)
+/data/*.db
+/data/*.db-journal
+/data/*.db-wal
+/data/*.db-shm
+/data/backups
+
+# entorno
+.env
+.env.local
+
+# tooling del entorno de trabajo
+.freebuff/
+
+# logs y SO
+*.log
+.DS_Store
+Thumbs.db
+
+# tipos generados
+*.tsbuildinfo
